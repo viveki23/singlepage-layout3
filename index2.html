@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout2</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* header */
+        nav{
+            background-color: aqua;
+            height: 80px;
+            line-height: 80px;
+        }
+        nav ul{
+           text-align: center;
+           list-style-type: none;
+           width: 30%;
+        }
+        nav ul li{
+           list-style: none;
+            display: inline;
+            margin-right: 20px;
+        }
+        /* sider */
+        div{
+            background-color: rgb(5, 110, 110);
+            height: 400px;
+            float: left;
+            width: 15%;  
+            text-align: center;
+        }
+        div ul{
+        
+           list-style-type: none;
+           width: 30%;
+           margin: 30px;
+          
+        }
+        div ul li{
+           list-style: none;
+            display: inline;
+            margin: 30px;
+            padding-left : 15%;
+        }
+        /* section */
+        section{
+            height: 400px;
+            padding: 30px;
+         
+            
+        }
+        section h3,p{
+           margin: 20px;
+            padding-left : 15%;
+          
+        }
+        /* footer */
+        footer{
+            background-color: bisque;
+            text-align: center;
+            height: 80px;
+            line-height: 80px;
+        }
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <!-- sidebar -->
+    <div>
+        <ul>
+                 <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>Contact</li>
+        </ul>
+    </div>
+    <!-- content -->
+   <section>
+    <h3>Know About Home page category</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, aut.</p>
+    <h3>Know About Home page category</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, qui?</p>
+    <h3>Know About Home page category</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora, accusantium.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, distinctio.</p>
+   </section>
+    <!-- footer -->
+    <footer>
+        <h2>copyright 2023</h2>
+    </footer>
+</body>
+</html>

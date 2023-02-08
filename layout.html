@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout</title>
+    <style>
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* start tophead */
+.tophead
+    {
+        width: 100%;
+        height:40px;
+        color: white;
+        line-height: 40px;
+        padding: 0px 120px;
+        background: rgb(37, 128, 120);
+    }
+
+.tophead .left
+    {
+        float: left;
+    }
+.tophead .right
+    {
+        float: right;
+    }
+ .tophead .left p, .tophead .right p
+    {
+        display: inline;
+    }
+ .tophead .left a, .tophead .right a
+    {
+        color: rgb(10, 219, 115);
+    }
+
+ /* end tophead */
+
+ /* header start */
+        header
+        {
+            width: 100%;
+            height: 80px;
+            color:azure;
+            line-height: 80px;
+            padding: 0px 120px;
+            background-color: rgb(13, 214, 130);
+        }
+
+        header h1
+        {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        header p{
+            display: inline;
+            font-weight: bold;
+        }
+
+        /* end header */
+
+
+
+ /* nav menu*/
+        nav{
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            padding: 0px 120px;
+            background: rgb(120, 190, 120);
+        }
+
+        nav ul li{
+            display: inline;
+            margin-right: 30px;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color:black;
+            font-weight: 600;
+        }
+
+ /*end nav menu*/
+
+        /* start main */
+
+        section
+        {
+            height: 550px;
+        }
+
+        .main
+        {
+            width: 100%;
+            height: 550px;
+            padding: 0px 120px;
+        }
+
+        .main1
+        {
+            margin-top:15px ;
+            width: 80%;
+            height: auto;
+            float: left;
+        }
+        
+        .main1 h3 p
+        {
+            border-left: 6px solid black;
+            background-color: black;
+           
+        }
+
+        .main1 ul
+        {
+            margin:0px 40px;
+        }
+
+        .bline  
+        {
+           border-left: 2px solid green;
+           line-height:20px ;
+           margin:  20px;
+           padding: 0 10px;
+           
+        }
+
+        .side
+        {
+            width: 20%;
+            height: 250px;
+            float: right;
+            background: silver;
+            padding: 10px 3px 3px 5px;
+            text-align: center;
+            
+        }
+
+        .side ul li
+         {
+            font-weight: 600;
+            list-style: none;
+            margin: 2px;
+            
+        }
+
+        .side ul li ul li 
+        {
+            margin: 2px;
+            font-weight: 100;
+           
+           
+        }
+
+        /* end main */
+
+/* start footer*/
+    footer
+    {
+        float: left;
+	     width: 100%;
+        height: 100px;
+        color:azure;
+        padding: 0px 120px;
+        background-color: rgb(11, 223, 134);
+        text-align: center;
+    }
+
+    .link 
+    {
+        margin: 10px;
+        width: 25%;
+        float: left;  
+    }
+
+    .link ul li 
+    {
+        
+        list-style: none;  
+    }
+
+    .link1 {
+        margin: 10px;
+         width: 25%;
+        float: left;
+    }
+
+    .link1 ul li {
+        list-style: none;  
+    }
+
+    .link2 {
+        
+        width: 25%;
+        float: left;        
+    }
+    
+    .link3 {
+        margin: 10px;
+        width: 25%;
+        float: left;
+
+    }
+    /*end footer*/
+
+    </style>
+
+</head>
+<body>
+   
+
+    <!--start tophead-->
+    <div class="tophead">
+        <div class="left">
+            <p>Welcome,Guest</p>
+            <a href="">Login</a>
+            <a href="">Sign Up</a>
+        
+        </div>
+        <div class="right">
+            <p>Update</p>
+            <a href="">Subscribe</a>
+            <a href="">Update offers</a>
+    </div>
+    </div>
+    <!--end tophead-->
+
+     <!--start header-->
+     <header>
+            <h1>My Blog</h1>
+            <p>Description of my blog</p>
+
+        </header>
+<!--end header-->
+
+<!--start nav-->
+<nav>
+    <ul> 
+        <li><a href=""></a>HOME</li>
+        <li><a href=""></a>ABOUT</li>
+        <li><a href=""></a>BLOG</li>
+        <li><a href=""></a>CONTACT</li>
+    </ul>
+</nav>
+<!--end nav-->
+
+<!--start section-->
+<section class="main">
+        <div class="main1">
+            <h1>PHP</h1>
+            <small>the look and feel part of a web page. Using CSS</small>
+            <br> <br>
+            
+            <p class="bline">CSS handles the look and feel part of a web page. Using CSS, you can control the color of the 
+                text,as well as a variety of other effects.CSS handles the look and feel part of a web page. Using CSS, you can control the color of the 
+                text, as well as a variety of other effects.</p>
+            
+           <br>
+            <h1>CSS</h1>
+           <small>you can control the color of the text</small> <br> <br>
+
+            <p>CSS handles the look and feel part of a web page. Using CSS, you can control the color of the 
+                text,as well as a variety of other effects.CSS handles the look and feel part of a web page. Using CSS, you can control the color of the 
+                text, as well as a variety of other effects.</p>
+                <br>
+                <ul class="ul">
+                   
+                    <li>you can control the color of the text</li>
+                    <li>you can control the color of the text</li>
+                    <li>you can control the color of the text</li>
+                </ul> <br>
+                
+                <p class="bline">CSS handles the look and feel part of a web page. Using CSS, you can control the color of the 
+                    text, as well as a variety of other effects.CSS handles the look and feel part of a web page. Using CSS, you can control the color of the 
+                    text, as well as a variety of other effects.</p>
+                        <br>
+                    <h1 >Javascript</h1> <br>
+                    <p class="bline">CSS handles the look and feel part of a web page. Using CSS, you can control the color of the 
+                    text, as well as a variety of other effects.CSS handles the look and feel part of a web page. Using CSS, you can control the color of the 
+                    text, as well as a variety of other effects.CSS handles the look and feel part of a web page. Using CSS, you can control the color of the 
+                    text, as well as a variety of other effects.</p>
+                        <br>
+
+                <h1 >Mysql</h1> <br>
+                 <p> <b>CSS handles the look and feel part of a web page.</b>  Using CSS, you can control the color of the 
+                text,  as well as a variety of other effects.you can control the color of the 
+                text,  as well as a variety of other effects.
+                you can control the color of the text,  as well as a variety of other effects.</p> <br>
+
+                
+                <ul>
+                    <h3>Header Level 3</h3>
+                    <li>you can control the color of the text</li>
+                    <li>you can control the color of the text</li>
+                    
+                </ul><br>
+
+                <ul>
+                    <h1>Header Level 3</h1> <br>
+                    <ol>
+                        <li>you can control the color of the text</li>
+                        <li>you can control the color of the text</li>
+                     </ol>
+                    <li>you can control the color of the text</li>
+                    <li>you can control the color of the text</li>
+                    
+                </ul> <br> <br>
+
+               
+        </div>
+<!--side-->
+        <div class="side">
+                <ul>
+                    <li>Categories
+                        <ul>
+                            <li>web development</li>
+                            <li>web development</li>
+                            
+                        </ul>
+                    </li>
+                    <li>Categories
+                        <ul>
+                            <li>web development</li>
+                            <li>web development</li>
+                            <li>web development</li>
+                        </ul>
+                    </li>
+                    <li>Categories
+                        <ul>
+                            <li>web development</li>
+                            <li>web development</li>
+                            <li>web development</li>
+                           
+                        </ul>
+                    </li>
+                </ul>
+        </div>
+</section>
+<!--end section-->
+
+<!--start footer-->
+
+    <footer>
+        <div class="link">
+            <ul> 
+                <h4>Links</h4>
+                <li>other effects</li>
+                <li>other effects</li>
+                <li>other effects</li>
+            </ul>
+        </div>
+
+        <div class="link1">
+            <ul> 
+                <h4>Links</h4>
+                <li>other effects</li>
+                <li>other effects</li>
+                <li>other effects</li>
+            </ul>
+
+        </div>
+        <div class="link2">
+            
+&nbsp;
+        </div>
+                   
+        <div class="link3">
+           <p>copyright</p> <br>
+           <p>All Right Reserved @ 2022</p>
+
+        </div>
+                   
+                     
+        
+               
+        
+
+    </footer>
+
+<!---end footer-->
+
+</body>
+</html>

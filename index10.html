@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout10</title>
+    <style>
+        *{
+   
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+/* header */
+header{
+    background-color: rgb(20, 106, 172);
+    padding: 0 120px;
+    text-align: center;
+
+}
+nav{
+    background-color: rgb(184, 184, 156);
+    padding: 0 120px;
+    height: 80px;
+    line-height: 80px;
+}
+nav h2{
+    float: left;
+}
+nav ul {
+    width: 40%;
+    list-style-type: none;
+    float: right;
+
+}
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+
+/* content */
+.banner{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(255, 3, 3));
+    height: 350px;
+    padding: 60px 120px;
+}
+.banner h2,p{
+    padding: 10px ;
+}
+.btn{
+    padding: 10px;
+    margin: 10px;
+    width: 15%;
+}
+/* 3box */
+.b{
+  
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 120px;
+}
+.b1{
+    float: left;
+    width: 32%;
+    border: 1px solid green;
+    border-radius: 12px;
+    margin: 3px;
+}
+.ba{
+    height: 50px;
+    width: 80px;
+    background: conic-gradient(#80FFDB,#5390D9);
+    text-align: center;
+    padding: 8px ;
+    margin: 8px 150px;
+}
+.b2{
+    float: left;
+    width: 32%;
+    border: 1px solid green;
+    border-radius: 12px;
+    margin: 3px;
+}
+.bb{
+    height: 50px;
+    width: 80px;
+    background: conic-gradient(#80FFDB,#5390D9);
+    text-align: center;
+    padding: 8px ;
+    margin: 8px 150px;
+}
+.b3{
+    float: left;
+    width: 32%;
+    border: 1px solid green;
+    border-radius: 12px;
+    margin: 3px;
+}
+.bc{
+    height: 50px;
+    width: 80px;
+    background: conic-gradient(#80FFDB,#5390D9);
+    text-align: center;
+    padding: 8px ;
+    margin: 8px 150px;
+}
+.course{
+    height: 400px;
+    width: 100%;
+    padding: 0 120px;
+    background:linear-gradient(to left,#80FFDB,#5390D9);
+}
+.c1{
+    height: 390px;
+    width: 25%;
+    float: left;
+   
+    padding: 25px 18px;
+}
+.btn2{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+.c2{
+    height: 390px;
+    width: 75%;
+    float: left;
+   
+    text-align: center;
+    padding: 10px 10px;
+}
+.ce1{
+    width:49% ;
+    height: 170px;
+    float: left;
+    border: 1px solid green;
+    border-radius: 12px;
+    padding: 10px 10px;
+  
+}
+.ce2{
+    width: 49%;
+    float: right;
+    height: 170px;
+    border: 1px solid green;
+    border-radius: 12px;
+    padding: 10px 10px;
+}
+.ce3{
+    width:49% ;
+    height: 170px;
+    float: left;
+    border: 1px solid green;
+    border-radius: 12px;
+    padding: 10px 10px;
+}
+.ce4{
+    width: 49%;
+    float: right;
+    height: 170px;
+    border: 1px solid green;
+    border-radius: 12px;
+    padding: 10px 10px;
+}
+.bt2{
+    padding: 10px;
+    margin: 10px;
+    width: 25%;
+}
+.fm{
+    padding: 10px 120px;
+    height: 250px;
+    width: 100%;
+    background: radial-gradient(ellipse 50% 400px, #80FFDB 50%, #5390D9 80%, #5E60CE );
+}
+.fm1{
+    float: left;
+    width: 70%;
+  
+   
+}
+input[type=text]
+{
+    width: 85%;
+    padding: 10px 10px;
+    margin: 5px 5px;
+    border: 1px solid gray ;
+    border-radius: 10px;
+
+}
+input[type=textarea]
+{
+    width: 65%;
+    height:50px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 5px 5px;
+
+}
+.btn3{
+    width: 85%;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(32, 134, 134);
+    border-radius: 12px;
+}
+
+.fm2{
+   
+    float: right;
+    width: 30%;
+    padding: 10px 30px ;
+}
+/* footer */
+footer{
+    background-color: bisque;
+    padding: 10px 120px;
+    text-align: center;
+}
+    </style>
+ 
+</head>
+<body>
+    <!-- header -->
+    <header>
+       <h1>EDUWELL</h1>
+       
+    </header>
+    <nav>
+        <h2>Eduwell</h2>
+        <ul>
+            <li>HOME</li>
+            <li>COURSES</li>
+            <li>APPLY NOW</li>
+            <li>CONTACT</li>
+        </ul>
+    </nav>
+    <!-- content -->
+    <div class="banner">
+        <h2>Eduwell Central EduHub.</h2>
+        <p>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet
+            Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+            Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet
+            Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.
+        </p>
+       <p>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet
+                Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+       <p>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet
+                    Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+               
+        <button type="button" class="btn" >About Us</button>
+    </div>
+
+    <div class="b">
+        <div class="b1">
+            <div class="ba"></div>
+            <h3>best Study</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, totam!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, totam!
+             </p>
+             <button type="button" class="bt2">Apply here</button>
+        </div>
+        <div class="b2">
+            <div class="bb"></div>
+            <h3>best Study</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, totam!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, totam!
+            </p>
+            <button type="button" class="bt2">Apply here</button>
+        </div>
+        <div class="b3"> 
+             <div class="bc"></div>
+             <h3>best Study</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, totam!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, totam!
+            </p>
+            <button type="button" class="bt2">Apply here</button>
+        </div>
+    </div>
+
+    <div class="course">
+      
+        <div class="c1">
+            <h3>Categories</h3>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <p>Lorem, ipsum dolor.</p>
+            <button type="button" class="btn2">All Courses</button>
+        </div>
+        <div class="c2">
+            <h2>All Courses</h2>
+            <div class="ce1">
+                <h4>helo</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, dicta! </p>
+                <button type="button" class="bt2">All Courses</button>
+            </div>
+            <div class="ce2">
+                <h4>helo</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, dicta! </p>
+                <button type="button" class="bt2">All Courses</button>
+
+            </div>
+          
+             <div class="ce3">
+                <h4>helo</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, dicta! </p>
+                <button type="button" class="bt2">All Courses</button>
+                </div>
+                <div class="ce4">
+                <h4>helo</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, dicta! </p>
+                <button type="button" class="bt2">All Courses</button>
+                </div>
+             </div>
+        </div>
+   <!-- contact -->
+   <div class="fm">
+    <h3>Contact Us</h3>
+    <div class="fm1">
+        <form action="">
+            <input type="text" name="" id="" placeholder="YourName">
+            <input type="text" name="" id="" placeholder="YourEmail">
+            <input type="text" name="" id="" placeholder="YourMessage">
+            <button type="button" class="btn3">Submit</button>
+        </form>
+    </div>
+      
+        <div class="fm2">
+            <p>Contact No.</p>
+            <h4>89899899023</h4>
+            <p>Office No.</p>
+            <h4>45454545454</h4>
+            <p>Email Us</p>
+            <h4>eduwell@mail.com</h4>
+            <p></p>
+
+        </div>
+   </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="f">
+            <h1>Eduwell </h1>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+    </footer>
+</body>
+</html>

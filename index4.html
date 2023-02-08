@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout4</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+        .hdr{
+            background-color: rgb(146, 227, 200);
+            padding: 0px 120px;
+            height: 40px;
+            line-height: 40px;
+        }
+        .hdr1{
+            float: left;
+        }
+        .hdr1 p,a{
+            display: inline;
+          
+        }
+        .hdr1 a{
+           
+           color: green;
+       }
+        .hdr2{
+            float: right;
+        }
+        .hdr2 p,a{
+            display: inline;
+           
+        }
+        .hdr2 a{
+           
+            color: green;
+        }
+        header{
+           
+            padding: 0px 120px;
+            background-color: rgb(79, 200, 200);
+        }
+        header h3{
+           display: inline;
+          
+        }
+        header p{
+            display: inline;
+            
+        }
+        nav {
+            background-color: aquamarine;
+            height: 50px;
+            line-height: 50px;
+            padding: 0px 120px;
+        }
+        nav ul{ 
+            list-style-type: none;
+            width: 30%;
+            float: left;
+
+        }
+        nav ul li{
+            list-style: none;
+            padding: 10px;
+            display: inline;
+
+        }
+        /* section */
+        section{
+            padding: 0px 120px;
+        }
+        section h3{
+            margin: 10px;
+           
+        }
+        section p{
+            margin: 10px;
+         
+            padding: 20px;
+            border-left: 2px solid green;
+        }
+        .sec h2,ul,ol,li{
+            margin-left: 4%;
+            padding: 3px;
+        }
+        /* footer */
+        footer{
+            height: 150px;
+            background-color: aquamarine;
+            padding: 0px 120px;
+        }
+        .ft1{
+            float: left;
+            width: 24%;
+            padding: 10px;
+        }
+        .ft1 ul li{
+            list-style: none;
+        }
+        .ft2{
+            float: left;
+            width: 24%;
+            padding: 10px;
+        }
+        .ft2 ul li{
+            list-style: none;
+           
+        }
+        .ft3{
+            float: left;
+            width: 24%;
+            padding: 10px;
+        }
+        .ft3 ul li{
+            list-style: none;
+            
+        }
+        .ft4{
+            float: right;
+            width: 24%;
+            padding: 10px;
+        }
+     
+
+    </style>
+</head>
+<body>
+    
+    <!-- header -->
+    <div class="hdr">
+        <div class="hdr1">
+            <p>Welcome, Guest:</p>
+            <a href="">Login</a>,
+            <a href="">Sign up</a>
+        </div>
+        <div class="hdr2">
+            <p>Update:</p>
+            <a href="">Subscribe</a>
+            <a href="">Update offers</a>
+        </div>
+    </div>
+    <header>
+        <h1>Vblogs  </h1>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+    </header>
+    <!-- nav -->
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Product</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <!-- content -->
+    <section>
+        <h3>HTML</h3> <small>Lorem ipsum dolor sit amet.</small>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sed et quis incidunt dolores hic,
+            iusto cumque ab, in fugit dignissimos nam eius culpa neque iure quaerat eos laborum est.Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio et quas excepturi delectus voluptatum animi iure, dignissimos corporis error est, beatae enim veniam necessitatibus voluptates eos aliquam. Quae, sit accusamus?</p>
+
+        <h3>CSS</h3> <small>Lorem ipsum dolor sit amet.</small>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sed et quis incidunt dolores hic, iusto cumque ab, in fugit dignissimos nam eius culpa neque iure quaerat eos laborum est
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio et quas excepturi delectus voluptatum animi iure, dignissimos corporis error est, beatae enim veniam necessitatibus voluptates eos aliquam. Quae, sit accusamus?</p>
+        
+        <h3>JAVA</h3> <small>Lorem ipsum dolor sit amet.</small>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sed et quis incidunt dolores hic, iusto cumque ab,
+             in fugit dignissimos nam eius culpa neque iure quaerat eos laborum est.Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio et quas excepturi delectus voluptatum animi iure, dignissimos corporis error est, beatae enim veniam necessitatibus voluptates eos aliquam. Quae, sit accusamus?</p>
+        
+        <h3>MYSQL</h3> <small>Lorem ipsum dolor sit amet.</small>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sed et quis incidunt dolores hic, iusto cumque ab,
+             in fugit dignissimos nam eius culpa neque iure quaerat eos laborum est.Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio et quas excepturi delectus voluptatum animi iure, dignissimos corporis error est, beatae enim veniam necessitatibus voluptates eos aliquam. Quae, sit accusamus?</p>
+        
+             <div class="sec">
+        <h2>PHP</h2>
+        <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+        <h2>JSON</h2>
+        <ol>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+        </ol>
+        <h2>AJAX</h2>
+        <ul>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+            <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+    </div>
+    </section>
+    <!-- 
+        footer
+     -->
+     <footer>
+        <div class="ft1">
+            <ul>
+                <h3>Links</h3>
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="ft2">
+            <ul>
+                <h3>Links</h3>
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="ft3">
+            <ul>
+                <h3>Links</h3>
+                <li>Home</li>
+                <li>About</li>
+                <li>Service</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="ft4">
+            <h3>Contact us</h3>
+            <p>12 street ,23 mode</p>
+          <address>New delhi</address>
+        </div>
+      
+     </footer>
+
+</body>
+</html>
